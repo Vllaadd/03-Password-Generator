@@ -23,9 +23,7 @@ function generate(){
   }	if(spCare){			
     potentialCharacters = potentialCharacters.concat(specChar)			
   }			
-  console.log(passLength);			
-  console.log(nums);			
-  console.log(potentialCharacters);			
+				
   var password = "";			
   //create for loop to choose password characters			
   for(var i = 0; i < passLength; i++){			
@@ -34,6 +32,6 @@ function generate(){
   password += randomChar			
   }			
   console.log(password);			
-  //add password to textbox/display area			
+  // add password to textbox/display area			
   document.getElementById("password").value = password;			
   }
