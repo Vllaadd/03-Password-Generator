@@ -30,8 +30,7 @@ function generate(){
   var randomNum = Math.floor(Math.random()* potentialCharacters.length)			
   var randomChar = potentialCharacters[randomNum]			
   password += randomChar			
-  }			
-  console.log(password);			
+  }						
   // add password to textbox/display area			
   document.getElementById("password").value = password;			
   }
