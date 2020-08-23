@@ -12,7 +12,7 @@ function generate(){
   var nums = confirm("Would you like to use numbers?");			
   var lowCase = confirm("Would you like to use lower case?");			
   var upCase = confirm("Would you like to use upper case?");			
-  var spCare = confirm("Would you like to use special characters?");			
+  var specCh = confirm("Would you like to use special characters?");			
   //inputing users input			
   if (nums) {			
     potentialCharacters = potentialCharacters.concat(numberChars)			
@@ -20,7 +20,7 @@ function generate(){
     potentialCharacters = potentialCharacters.concat(lowerCase);			
   }if(upCase){			
     potentialCharacters = potentialCharacters.concat(upperCase)			
-  }	if(spCare){			
+  }	if(specCh){			
     potentialCharacters = potentialCharacters.concat(specChar)			
   }			
 				
